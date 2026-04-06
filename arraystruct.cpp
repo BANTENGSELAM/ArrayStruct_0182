@@ -31,9 +31,9 @@ int main() {
         cout << endl;
         cin.ignore();
 
-        // tampilkan  
         for (int i = 0; i < 2; i++)
         {
+            // tampilkan  
             cout << " Data Penduduk : " << endl;
             cout << "Nama : " << mhs[1].nama << endl; 
             cout << "Alamat Desa : " << mhs[1].alamat.desa << endl; 
