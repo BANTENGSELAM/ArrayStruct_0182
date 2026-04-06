@@ -20,7 +20,7 @@ int main() {
     cout << "Data index 0 = ";
     cin >> kamu[0]; // 0
     cout << "Data index 1 = ";
-    cin >> kamu[1];
+    cin >> kamu[1]; // 1
     cout << "Data index 2 = ";
     cin >> kamu[2];
     cout << "Data index 3 = ";
