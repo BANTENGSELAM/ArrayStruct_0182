@@ -31,13 +31,17 @@ int main() {
         cout << endl;
         cin.ignore();
 
-        // tampilkan   
-        cout << "Nama : " << mhs[1].nama << endl; 
-        cout << "Alamat Desa : " << mhs[1].alamat.desa << endl; 
-        cout << "Alamat Kota : " << mhs[1].alamat.kota << endl; 
-        cout << "Umur : " << mhs[1].umur << endl; 
+        // tampilkan  
+        for (int i = 0; i < 2; i++)
+        {
+            cout << " Data Penduduk : " << endl;
+            cout << "Nama : " << mhs[1].nama << endl; 
+            cout << "Alamat Desa : " << mhs[1].alamat.desa << endl; 
+            cout << "Alamat Kota : " << mhs[1].alamat.kota << endl; 
+            cout << "Umur : " << mhs[1].umur << endl; 
+            cout << endl;
+        }
     }
-    
 }
 
 
