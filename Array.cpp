@@ -18,7 +18,7 @@ int main() {
 
     //mengisi 1 per 1
     cout << "Data index 0 = ";
-    cin >> kamu[0];
+    cin >> kamu[0]; // 0
     cout << "Data index 1 = ";
     cin >> kamu[1];
     cout << "Data index 2 = ";
