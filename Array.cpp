@@ -15,4 +15,6 @@ int main() {
     //ganti index ke 1
     aku[1] = 200;
     cout << endl;
+
+    //mengisi 1 per 1
 }
