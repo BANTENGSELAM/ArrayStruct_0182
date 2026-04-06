@@ -17,4 +17,23 @@ int main() {
     cout << endl;
 
     //mengisi 1 per 1
+    cout << "Data index 0 = ";
+    cin >> kamu[0];
+    cout << "Data index 1 = ";
+    cin >> kamu[1];
+    cout << "Data index 2 = ";
+    cin >> kamu[2];
+    cout << "Data index 3 = ";
+    cin >> kamu[3];
+    cout << "Data index 4 = ";
+    cin >> kamu[4];
+    cout << endl;
+
+    // Mengisi menggunakan perulangan for
+    for (int i = 0; i < 4; i++)
+    {
+        cout << "Data Index Ke-" << i << " = ";
+        cin >> kamu[1];
+    }
+    
 }
